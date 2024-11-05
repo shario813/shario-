@@ -12,7 +12,7 @@ describe('canDrink', () => {
 })
 
 // TEST 2
-xdescribe('canVote', () => {
+describe('canVote', () => {
     test('returns correct response for voting age', () => {
         expect(ifState.canVote(17)).toBe("can't vote");
         expect(ifState.canVote(19)).toBe("can vote");
@@ -22,7 +22,7 @@ xdescribe('canVote', () => {
 })
 
 // TEST 3
-xdescribe('canDrive', () => {
+describe('canDrive', () => {
     test('returns correct driving status', () => {
         expect(ifState.canDrive(12)).toBe('no driving');
         expect(ifState.canDrive(14)).toBe('no driving');
@@ -36,7 +36,7 @@ xdescribe('canDrive', () => {
 });
 
 // TEST 4
-xdescribe('week', () => {
+describe('week', () => {
     test('returns correct time of the week', () => {
         expect(ifState.week('Monday')).toBe('weekday');
         expect(ifState.week('Tuesday')).toBe('weekday');

@@ -5,7 +5,7 @@ let number = 5
 // reassign the value of number to be 10
 
 // *** your code here ***
-
+number=10
 
 
 // TEST 2
@@ -14,6 +14,10 @@ let number = 5
 
 function getName(){
     // your code here
+
+
+
+    
 }
 
 
