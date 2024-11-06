@@ -6,7 +6,7 @@ const array3 = [4, 6, 10, 25];
 
 // TEST 1
 // REMOVE X FROM DESCRIBE TO RUN TEST //
-xdescribe('first', () => {
+describe('first', () => {
     test('returns first element from array', () => {
         expect(arr.first(array1)).toBe(92);
         expect(arr.first(array2)).toBe('Bill');
@@ -15,7 +15,7 @@ xdescribe('first', () => {
 });
 
 // TEST 2
-xdescribe('howMany', () => {
+describe('howMany', () => {
     test('returns the length of an array', () => {
         expect(arr.howMany(array1)).toBe(11);
         expect(arr.howMany(array2)).toBe(6);
@@ -24,7 +24,7 @@ xdescribe('howMany', () => {
 });
 
 // TEST 3
-xdescribe('last', () => {
+describe('last', () => {
     test('returns last element from array', () => {
         expect(arr.last(array1)).toBe(32);
         expect(arr.last(array2)).toBe('Zach');
@@ -33,7 +33,7 @@ xdescribe('last', () => {
 });
 
 // TEST 4
-xdescribe('forLoopSum', () => {
+describe('forLoopSum', () => {
     test('returns sum of all elements using forloop', () => {
         expect(arr.forLoopSum(array1)).toBe(782);
         expect(arr.forLoopSum(array3)).toBe(45);
@@ -41,7 +41,7 @@ xdescribe('forLoopSum', () => {
 });
 
 // TEST 5
-xdescribe('forLoopHighest', () => {
+describe('forLoopHighest', () => {
     test('returns largest number of array using for loop', () => {
         expect(arr.forLoopHighest(array1)).toBe(99);
         expect(arr.forLoopHighest(array3)).toBe(25);
@@ -49,7 +49,7 @@ xdescribe('forLoopHighest', () => {
 });
 
 // TEST 6
-xdescribe('forEachLoopSum', () => {
+describe('forEachLoopSum', () => {
     test('returns sum of all elements using forloop', () => {
         expect(arr.forEachLoopSum(array1)).toBe(782);
         expect(arr.forEachLoopSum(array3)).toBe(45);
@@ -57,7 +57,7 @@ xdescribe('forEachLoopSum', () => {
 });
 
 // TEST 7
-xdescribe('forEachLoopHighest', () => {
+describe('forEachLoopHighest', () => {
     test('returns largest number of array using while loop', () => {
         expect(arr.forEachLoopHighest(array1)).toBe(99);
         expect(arr.forEachLoopHighest(array3)).toBe(25);
@@ -65,7 +65,7 @@ xdescribe('forEachLoopHighest', () => {
 });
 
 // TEST 8
-xdescribe('whileLoopSum', () => {
+describe('whileLoopSum', () => {
     test('returns sum of all elements using forloop', () => {
         expect(arr.whileLoopSum(array1)).toBe(782);
         expect(arr.whileLoopSum(array3)).toBe(45);
@@ -73,7 +73,7 @@ xdescribe('whileLoopSum', () => {
 });
 
 // TEST 9
-xdescribe('whileLoopHighest', () => {
+describe('whileLoopHighest', () => {
     test('returns largest number of array using while loop', () => {
         expect(arr.whileLoopHighest(array1)).toBe(99);
         expect(arr.whileLoopHighest(array3)).toBe(25);

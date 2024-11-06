@@ -13,11 +13,15 @@ number=10
 // and set it equal to 'Bill', then return the name variable
 
 function getName(){
+    const name = 'Bill'; // Declare and set the const variable
+     return name; // Return the value of the const variable
+    
     // your code here
 
 
 
-    
+
+
 }
 
 
@@ -29,7 +33,9 @@ function getName(){
 // name the variable 'newNumber' and set it equal
 // to the 'number' variable plus 10
 
-let newNumber  // your code here
+let newNumber=number+10; 
+
+
 
 
 

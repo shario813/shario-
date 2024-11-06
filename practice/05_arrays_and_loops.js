@@ -3,7 +3,10 @@
 // Complete the function by returning the first element 
 // of the array 
 // *NOTE* use the 'arr' parameter
+                   //0,1,2,3,4,5,6,7
+const numberArray = [6,5,4,1,3,5,6,41] //ARRAY LENGTH IS 8
 function first(arr){
+    return arr[0]
     // your code here
     
 }
@@ -12,6 +15,7 @@ function first(arr){
 // Complete the function by returning the length
 // of the array
 function howMany(arr){
+    return arr.length
     // your code here
    
 }
@@ -21,6 +25,7 @@ function howMany(arr){
 // element of the array
 // *HINT* use the length property
 function last(arr){
+    return arr[arr.length - 1]
     // your code here
    
 }
@@ -29,6 +34,7 @@ function last(arr){
 // Use a FOR LOOP to complete the function
 // return the sum of an array of numbers (all numbers added to together)
 function forLoopSum(arr){
+
     // your code here
     
 }
